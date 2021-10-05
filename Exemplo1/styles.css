@@ -1,0 +1,66 @@
+section {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: inherit;
+    background-color: rgba(179, 178, 178, 0.966);
+    padding: 7px;
+}
+
+
+section .div1 {
+    background-color: rgba(223, 68, 68, 0.911);
+    flex: 40%;
+    line-height: 200px;
+    text-align: center;
+    margin-right: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+section .container1 {
+    flex: 60%;
+    text-align: center;
+}
+
+section .container1 .div2 {
+    background-color: #12fa0a;
+    flex: 100%;
+    line-height: 110px;
+    margin-bottom: 7px;
+    color: white;
+    font-size: 20px;
+}
+
+section .container1 .container2 {
+    display: flex;
+    flex-direction: inherit;
+}
+
+section .container1 .container2 .div3 {
+    background-color: rgba(235, 70, 152, 0.911);
+    flex: 20%;
+    line-height: 163px;
+    margin-right: 7px;
+    color: white;
+    font-size: 20px;
+}
+
+section .container1 .container2 .container3 {
+    flex: 30%;
+}
+
+section .container1 .container2 .container3 .div4a {
+    background-color: rgb(121, 129, 241);
+    line-height: 81px;
+    margin-bottom: 7px;
+    color: white;
+    font-size: 20px;
+}
+
+section .container1 .container2 .container3 .div4b {
+    background-color: rgb(121, 129, 241);
+    line-height: 81px;
+    color: white;
+    font-size: 20px;
+}
